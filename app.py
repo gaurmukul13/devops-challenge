@@ -17,6 +17,6 @@ def get_time_and_ip():
     })
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000, user="nonrootuser")
-#docker push gaurmukul/simpletimeservice:latest
+    app.run(host='0.0.0.0', port=8080)
+#docker push gaurmukul378/simpletimeservice:latest
 
